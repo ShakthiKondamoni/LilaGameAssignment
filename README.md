@@ -299,6 +299,21 @@ Possible enhancements:
 
 This project successfully demonstrates a modular  weapon system in Unity.
 
+--------------------------------
+
+#My Work
+I have also provided a link to my earlier work where a similar problem was implemented using **Unreal engine 5**, to demonstrate my approach across different game engines.
+## 🔫 Weapon System – Overview
+
+The weapon system is designed as a **fully data-driven, multiplayer-safe FPS framework** with a strong focus on **server authority, replication correctness, and scalability**. It supports multiple weapon types and firing behaviors while maintaining consistent gameplay across all clients.
+
+Each weapon is implemented using a common base class and configured through **Primary Data Assets**, allowing new weapons to be added without modifying core logic. The system supports **semi-automatic, full-automatic, and burst fire modes**, along with ammo management, reload timing, recoil patterns, and weapon-specific animations.
+
+All critical actions such as firing, damage application, reloading, and weapon pickup/drop are executed on the **server**, while visual effects and animations are synchronized using multicast replication. A pattern-based recoil system directly affects camera rotation, enabling predictable and skill-based gunplay.
+
+The weapon system integrates seamlessly with the character’s **slot-based inventory**, ensuring clean weapon switching, proper attachment to the character mesh, and correct replication for multiplayer gameplay.
+[FPS Weapon system](https://github.com/ShakthiKondamoni/Weapon-system-)
+
 
 
 
