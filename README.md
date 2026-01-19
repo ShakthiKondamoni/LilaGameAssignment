@@ -1,4 +1,4 @@
-# Unity Networked Movement Compression (Delta-Based)
+# Project 1:Unity Networked Movement Compression (Delta-Based)
 
 ## Overview
 This repository contains plain C# scripts designed to demonstrate **movement delta
